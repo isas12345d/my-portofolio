@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .style-0 {
     max-width: 1600px;
     cursor: auto;
@@ -198,6 +202,7 @@
 
 .style-16 {
     box-sizing: border-box;
+    margin-bottom: 20rem;
 }
 
 .style-17 {
@@ -488,20 +493,19 @@
 }
 
 .style-42 {
-
     color: rgb(241, 241, 241);
     background-color: rgb(97, 97, 97);
     padding-bottom: 550px;
-  
     text-align: center;
-
     box-sizing: border-box;
+    margin-bottom: 10rem;
 }
 
 .style-43 {
     font-family: 'Segoe UI', Arial, sans-serif;
     font-weight: 400;
     margin: 10px 0px;
+    padding-top: 2rem;
     font-size: 20px;
     box-sizing: border-box;
 }
@@ -722,6 +726,10 @@
     box-sizing: border-box;
 }
 
+.style-68 li:last-child {
+    background-color: rgb(5, 5, 5);
+}
+
 .style-69 {
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
@@ -786,7 +794,6 @@
     background-color: rgb(241, 241, 241);
     padding-top: 24px;
     padding-bottom: 24px;
-    border-bottom: 0px none rgb(0, 0, 0);
     padding: 24px 16px;
     box-sizing: border-box;
 }
